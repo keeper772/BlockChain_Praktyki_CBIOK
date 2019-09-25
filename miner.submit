@@ -1,0 +1,8 @@
+universe = vanilla
+executable = miner.py
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+output = miner.out
+arguments = "000e12ef9b10f226e2a78541c9318a7f608ef78b549be6bcef69a651c0141aa8 7 jakies_dane"
+log = miner.log
+queue 1000
